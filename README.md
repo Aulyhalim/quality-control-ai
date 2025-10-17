@@ -64,9 +64,9 @@ The system delivers clear, detailed feedback for each analysis.
 #### Example 1: "GOOD" Classification
 When a non-defective part is analyzed, it passes inspection with a high confidence level.
 
-![Good Result](./images/output-webcam.jpg)
+![Good Result](./images/output_webcam.png)
 
 #### Example 2: "DEFECTIVE" Classification
 If a defect is detected, the system classifies the part as "DEFECTIVE" and flags it for human review.
 
-![Defective Result](./images/output_upload.jpg)
+![Defective Result](./images/output_upload.png)
