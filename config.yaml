@@ -1,0 +1,25 @@
+# ============================================
+# KONFIGURASI PROYEK KONTROL KUALITAS
+# ============================================
+
+# --- Path Direktori ---
+data_dir: 'data/processed'
+model_dir: 'models'
+output_dir: 'output'
+
+# --- Pengaturan Pelatihan Model ---
+training:
+  num_epochs: 15       # Jumlah epoch bisa ditambah karena data lebih banyak
+  batch_size: 32
+  learning_rate: 0.001
+
+# --- Pengaturan Model ---
+model:
+  name: 'resnet18'
+  num_classes: 2      # Sesuaikan jika kelas Anda lebih dari 2
+
+# --- Pengaturan Aplikasi Gradio ---
+gradio:
+  server_name: "0.0.0.0"
+  server_port: 7860
+  share: False

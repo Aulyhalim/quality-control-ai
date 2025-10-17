@@ -1,0 +1,11 @@
+Laporan Kinerja Model pada Test Set
+=======================================
+
+              precision    recall  f1-score   support
+
+   defective       1.00      0.98      0.99       792
+        good       0.98      1.00      0.99       575
+
+    accuracy                           0.99      1367
+   macro avg       0.99      0.99      0.99      1367
+weighted avg       0.99      0.99      0.99      1367

@@ -1,0 +1,10 @@
+artifact_location: file:///C:/mini%20project%20app/quality-control-project/mlruns/792661010568224431/models/m-ddbaa4e590384c9a854754650f483a00/artifacts
+creation_timestamp: 1760442351471
+experiment_id: '792661010568224431'
+last_updated_timestamp: 1760442369823
+model_id: m-ddbaa4e590384c9a854754650f483a00
+model_type: null
+name: model
+source_run_id: 645121996601474f8bb02cefbff799c8
+status: 2
+status_message: null
