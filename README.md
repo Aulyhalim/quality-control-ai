@@ -47,7 +47,7 @@ To improve efficiency, the model was converted from 32-bit floating point (FP32)
 
 This project includes a user-friendly web interface for real-time quality control analysis.
 
-![Application Interface](./images/app_interface.png)
+![Application Interface](./images/upload_page.png)
 *The main interface allows users to easily upload an image for analysis.*
 
 ### Key Features:
@@ -64,9 +64,9 @@ The system delivers clear, detailed feedback for each analysis.
 #### Example 1: "GOOD" Classification
 When a non-defective part is analyzed, it passes inspection with a high confidence level.
 
-![Good Result](./images/output_good.jpg)
+![Good Result](./images/output-webcam.jpg)
 
 #### Example 2: "DEFECTIVE" Classification
 If a defect is detected, the system classifies the part as "DEFECTIVE" and flags it for human review.
 
-![Defective Result](./images/output_defective.jpg)
+![Defective Result](./images/output_upload.jpg)
